@@ -1,0 +1,11 @@
+html
+   head
+      title Person
+   body
+      if(type == "error")
+         h3(style = "color:red") #{message}
+      else
+         h3 New person, 
+            h3 name: #{name}, 
+            h3 author: #{author} and 
+            h3 Publication Year: #{pub} added!
